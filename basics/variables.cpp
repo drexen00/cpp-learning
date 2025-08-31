@@ -23,7 +23,7 @@ int main() {
     cout << myNum << endl;
 
     // constant declaration syntax: const dataType constantName = value;
-    const int myConst = 50; // cannot be changed after initialization
+    const int MY_CONST = 50; // cannot be changed after initialization and Constants should be named with uppercase letters and underscores.
     cout << myConst << endl;
 
     // variable reassignment syntax: variableName = value; note: no dataType and variable must be declared first
@@ -68,4 +68,5 @@ int main() {
     cout << g << endl; // outputs 400
     cout << h << endl; // outputs 400
     return 0;
+
 }
